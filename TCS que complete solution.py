@@ -18,14 +18,16 @@ for val in range(x, y + 1):
 
 result=[]
 k=len(prime)
+count=0
 for i in range(k):
     for j in range(i):
         x=prime[i]-prime[j]
         if x==6:
             result.append(prime[i])
             result.append(prime[j])
+            count+=1
             print("Pair found (",prime[i],",",prime[j],")",end="")
-l=len(prime)
+
 print()
-print(l/2)
+print(count)
 
