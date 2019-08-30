@@ -1,6 +1,4 @@
-from array import *
-ar=[]
-k=int(input("array length"))
+der birthdaycandles
 count=0
 big = max(ar)
 k=len(ar)
