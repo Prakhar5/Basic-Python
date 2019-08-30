@@ -1,14 +1,11 @@
 from array import *
-arr=[]
-n=int(input("array length"))
-
-for i in range(n):
-    x = (input()) 
-    arr.append(x)
-    continue
-print(arr)
+ar=[]
+k=int(input("array length"))
 count=0
-for j in range(n):
-    if arr[i]==arr[j-i]:
-        count+=1
+big = max(ar)
+k=len(ar)
+for i in range(k):
+    if(ar[i]==big):
+    count+=1
+
 print(count)
