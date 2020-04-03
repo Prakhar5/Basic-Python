@@ -1,0 +1,12 @@
+ms=[]
+ss=[]
+if __name__ == '__main__':
+    for _ in range(int(input())):
+        name = input()
+        score = float(input())
+        ms+=[[name,score]]
+        ss+=[score]
+    x=sorted(set(ss))[1]
+    for n,s in sorted(ms):
+        if s==x:
+            print(n)
